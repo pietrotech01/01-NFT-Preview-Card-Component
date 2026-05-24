@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  color: white;
+  font-family: "Outfit";
+}
+
+/* Fonts */
+
+.title {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.gray {
+  color: #8bacd9;
+  font-size: 18px;
+  line-height: 145%;
+  font-weight: 280;
+}
+
+.eth > span {
+  color: #00fff8;
+  font-weight: 600;
+}
+
+/* Main CSS */
+
+body {
+  background-color: #0d192c;
+}
+
+.root-container {
+  /* border: 2px dashed white; */
+  min-height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nft-card-container {
+  min-width: 350px;
+  background-color: #15263f;
+  /* border: 2px solid yellowgreen; */
+  border-radius: 15px;
+}
+
+.contents-container {
+  width: 90%;
+  max-width: 350px;
+  /* border: 2px solid pink; */
+  margin: 0 auto;
+  padding: 25px 10px;
+}
+
+.equilibrium {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.eth-and-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.eth,
+.time {
+  display: flex;
+  align-items: center;
+}
+
+.eth > span {
+  margin-left: 5px;
+}
+
+.time > span {
+  margin-left: 5px;
+}
+
+hr {
+  border: none;
+  background-color: gray;
+  height: 0.5px;
+}
+
+.creation {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar {
+  width: 33px;
+  height: 33px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.jules {
+  position: relative;
+  top: -1px;
+  right: -1px;
+}
