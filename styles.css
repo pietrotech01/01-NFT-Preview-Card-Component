@@ -54,7 +54,6 @@ body {
 
 .equilibrium {
   width: 100%;
-  border-radius: 12px;
 }
 
 .eth-and-time {
@@ -100,4 +99,39 @@ hr {
   position: relative;
   top: -1px;
   right: -1px;
+}
+
+/* Active State */
+
+.img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.img-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.5;
+  transition: 0.3s;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.img-wrapper:hover::after {
+  background: #00fff8;
+}
+
+.text > h1,
+.jules {
+  transition: 0.3s;
+}
+
+.text > h1:hover {
+  color: #00fff8;
+}
+
+.jules:hover {
+  color: #00fff8;
 }
